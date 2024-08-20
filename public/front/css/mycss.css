@@ -1,0 +1,157 @@
+/* تحسين عرض تفاصيل التبرع */
+
+.background-div {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.border-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.order-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.order-details li {
+    font-weight: bold;
+    display: inline;
+}
+
+.custom-display {
+    display: inline;
+    font-size: 16px;
+    color: #333;
+}
+
+.custom-padding {
+    padding-left: 10px;
+}
+
+.adjust-position {
+    margin-top: 10px;
+}
+
+.more2-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.more2-btn:hover {
+    background-color: #c0392b;
+}
+
+.more3-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.more3-btn:hover {
+    background-color: #2980b9;
+}
+.search-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #c0392b;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.search-icon i {
+    font-size: 16px;
+}
+.more3-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.more3-btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+.spacer {
+    height: 40px; /* تعديل ارتفاع الفاصل حسب الحاجة */
+}
+
+.more2-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    /* يمكن إزالة margin-bottom في حال استخدام .spacer */
+}
+
+.more2-btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05) translateY(-5px);
+}
+.search-btn {
+    background-color: white; /* لون خلفية الزر */
+    color: black; /* لون الأيقونة */
+    border: none; /* إزالة الحدود الافتراضية */
+    padding: 1px; /* مساحة داخلية داخل الزر */
+    border-radius: 5px; /* جعل الزر دائري الأطراف */
+    width: 50%; /* جعل الزر يمتد لعرض الحاوية */
+    height: 60%; /* جعل الزر يمتد لارتفاع الحاوية */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.search-btn i {
+    font-size: 30px; /* حجم الأيقونة */
+}
+
+.search-btn:hover {
+    background-color: #2980b9; /* تغيير لون الخلفية عند التمرير */
+    transform: scale(1.05); /* تكبير الزر قليلاً عند التمرير */
+}
+
+.search {
+    padding: 0; /* إزالة أي مساحة داخلية حول الزر */
+    margin-top: 10px; /* إضافة مسافة فوق الزر إذا لزم الأمر */
+}
